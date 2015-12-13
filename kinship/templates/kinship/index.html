@@ -1,19 +1,22 @@
 <html>
 <body>
-     	<h3>It works! :D</h3>
- 	{% for person in persons.all %}
+	<h3>It works! :D</h3>
+	{% for person in persons.all %}
 		 <div>
-			<div><span style="color:grey;">Name: </span> {{ person.name }}<div>
-			 <div>
+			<div>
+                            <span style="color:grey;">Name: </span> {{ person.name }}
+                        </div>
+			<div>
 				 <span style="color:grey;">Affiliation: </span>{{ person.affiliation }}
 			</div>
 			<div>
 				<span style="color:grey;">Birth location:</span> {{ person.birth_location }}
 			</div>
-			<p><span style="color:grey;">Biography link: </span><a href="#">{{ person.name }}</a></p>
-			<hr>
+			<p>
+                            <span style="color:grey;">Biography link: </span><a href="#">{{ person.name }}</a>
+                        </p>
+			<hr />
 		</div>
 	{% endfor %}
-
 </body>
 </html>

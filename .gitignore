@@ -1,1 +1,16 @@
 /venv/
+/db.sqlite3
+*.pyc
+*.o
+*.obj
+*.zip
+*gz
+*bz2
+*.rar
+*.lib
+*.dll
+*.so
+*.a
+*swp
+*swo
+*~

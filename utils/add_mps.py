@@ -18,8 +18,8 @@ django.setup()
 def main():
 
     if len(sys.argv) != 2:
-        print 'Usage: python add_mps.py <file.csv>'
-        print " CSV columns: name, group"
+        print ('Usage: python add_mps.py <file.csv>')
+        print (" CSV columns: name, group")
         sys.exit(1)
 
     csvfile = open(sys.argv[1], 'r')
